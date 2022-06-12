@@ -18,8 +18,8 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("Dynamic PVP Raids", "zenmarev", "1.0.0")]
-    [Description("Addon to Dynamic PVP plugin to create timed zones during player raid events.")]
+    [Info("Dynamic PVP Raids", "zenmarev-Meechie1", "1.1.0")]
+    [Description("Adds player created PVP zones using the plugin Dynamic PVP and Zone Manager.")]
     public class DynamicPVPRaids : RustPlugin
     {
         #region Plugin Dependencies
@@ -63,6 +63,9 @@ namespace Oxide.Plugins
             {
                 "refinery_small_deployed.prefab",
                 "furnace.large.prefab",
+                "workbench1.deployed",
+                "workbench2.deployed",
+                "workbench3.deployed"   
             };
         }
 
